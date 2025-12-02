@@ -35,33 +35,7 @@ export default function Canzoni() {
                     <source src="/canzoni/SONO PARTITI DALLA STAZIONE.mp3" type="audio/mpeg" />
                     Il tuo browser non supporta l&apos;elemento audio.
                   </audio>
-                </div>
-                <p className="song-description">Brano musicato con SUNO</p>
-                
-                <div className="accordion">
-                  <button
-                    onClick={() => toggleAccordion(1)}
-                    className="accordion-button"
-                  >
-                    <span>Leggi il testo</span>
-                    <span className="accordion-icon">
-                      {openAccordion === 1 ? '−' : '+'}
-                    </span>
-                  </button>
-                  <div className="accordion-content" style={{maxHeight: openAccordion === 1 ? '1000px' : '0'}}>
-                    <div className="lyrics-text">
-                      <p>
-                        Inserire qui il testo completo<br />
-                        della canzone &quot;Sono Partiti Dalla Stazione&quot;<br />
-                        con le strofe separate
-                      </p>
-                      <p>
-                        Seconda strofa<br />
-                        del testo
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                </div>                
               </article>
             </div>
 

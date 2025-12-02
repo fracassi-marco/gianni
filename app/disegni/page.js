@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Disegni - Gianni Albertario',
+  title: 'Disegni a china - Gianni Albertario',
 }
 
 const disegni = [
