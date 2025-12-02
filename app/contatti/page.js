@@ -24,7 +24,7 @@ export default function Contatti() {
                 per condividere le vostre impressioni, sarò felice di leggere i vostri messaggi.
               </p>
               
-              <div className="contact-form">
+              {/* <div className="contact-form">
                 <form action="#" method="post">
                   <div className="form-group">
                     <label htmlFor="name">
@@ -81,7 +81,7 @@ export default function Contatti() {
                     Invia Messaggio
                   </button>
                 </form>
-              </div>
+              </div> */}
 
               <div className="contact-info">
                 <p>
