@@ -1,21 +1,11 @@
 'use client'
 
-import { useState } from 'react'
+
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import canzoniData from './canzoni-data.json'
-import testiData from '../testi/testi-data.json'
 
 export default function Canzoni() {
-  const [openAccordions, setOpenAccordions] = useState({})
-
-  const toggleAccordion = (index) => {
-    setOpenAccordions(prev => ({
-      ...prev,
-      [index]: !prev[index]
-    }))
-  }
-
   // Rimuovi duplicati (mantieni solo la versione con il nome più corto/pulito)
   const canzoniUniche = canzoniData.filter((canzone, index, self) => {
     const nomeNormalizzato = canzone.nome.toLowerCase().replace(/[^a-z0-9]/g, '')
