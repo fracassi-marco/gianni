@@ -53,9 +53,9 @@ export default function Testi() {
                           <div 
                             className="accordion-content" 
                             style={{
-                              maxHeight: isOpen ? '2000px' : '0',
-                              overflow: 'hidden',
-                              transition: 'max-height 0.3s ease'
+                              maxHeight: isOpen ? 'none' : '0',
+                              overflow: isOpen ? 'visible' : 'hidden',
+                              transition: isOpen ? 'none' : 'max-height 0.3s ease'
                             }}
                           >
                             <p>
