@@ -3,13 +3,26 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import canzoniData from './canzoni-data.json'
+import testiData from '../testi/testi-data.json'
 
 export default function Canzoni() {
-  const [openAccordion, setOpenAccordion] = useState(null)
+  const [openAccordions, setOpenAccordions] = useState({})
 
-  const toggleAccordion = (id) => {
-    setOpenAccordion(openAccordion === id ? null : id)
+  const toggleAccordion = (index) => {
+    setOpenAccordions(prev => ({
+      ...prev,
+      [index]: !prev[index]
+    }))
   }
+
+  // Rimuovi duplicati (mantieni solo la versione con il nome più corto/pulito)
+  const canzoniUniche = canzoniData.filter((canzone, index, self) => {
+    const nomeNormalizzato = canzone.nome.toLowerCase().replace(/[^a-z0-9]/g, '')
+    return index === self.findIndex(c => 
+      c.nome.toLowerCase().replace(/[^a-z0-9]/g, '') === nomeNormalizzato
+    )
+  })
 
   return (
     <>
@@ -25,18 +38,22 @@ export default function Canzoni() {
         <section className="content">
           <div className="container">
             <div className="songs-list">
-              <article className="song-item">
-                <h3>Sono Partiti Dalla Stazione</h3>
-                <div className="audio-player">
-                  <audio 
-                    controls 
-                    controlsList="nodownload"
-                  >
-                    <source src="/canzoni/SONO PARTITI DALLA STAZIONE.mp3" type="audio/mpeg" />
-                    Il tuo browser non supporta l&apos;elemento audio.
-                  </audio>
-                </div>                
-              </article>
+              {canzoniUniche.map((canzone, index) => {
+                return (
+                  <article key={index} className="song-item">
+                    <h3>{canzone.nome}</h3>
+                    <div className="audio-player">
+                      <audio 
+                        controls 
+                        controlsList="nodownload"
+                      >
+                        <source src={`/canzoni/${canzone.file}`} type="audio/mpeg" />
+                        Il tuo browser non supporta l&apos;elemento audio.
+                      </audio>
+                    </div>
+                  </article>
+                )
+              })}
             </div>
 
             <div className="info-box">
