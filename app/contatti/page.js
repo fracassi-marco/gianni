@@ -86,8 +86,8 @@ export default function Contatti() {
               <div className="contact-info">
                 <p>
                   <strong>Email:</strong>{' '}
-                  <a href="mailto:tuaemail@esempio.it">
-                    tuaemail@esempio.it
+                  <a href="mailto:gpalbert@libero.it">
+                    gpalbert@libero.it
                   </a>
                 </p>
                 <p>
