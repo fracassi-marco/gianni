@@ -16,6 +16,7 @@ const disegni = [
   { nome: 'La Lavandaia del Ticino a Pavia', file: 'La Lavandaia del Ticino a Pavia.jpg' },
   { nome: 'La fontanella di San Michele a Pavia', file: 'La fontanella di San Michele a Pavia.jpg' },
   { nome: 'Mulino a Bereguardo', file: 'Mulino a Bereguardo.jpg' },
+  { nome: 'Mulino sulla Vernavola 2025', file: '2025-Mulino sulla Vernavola.jpg' },
   { nome: 'Naviglio Pavese a Milano', file: 'Naviglio Pavese a Milano.jpg' },
   { nome: 'Naviglio a Pavia', file: 'Naviglio a Pavia.jpg' },
   { nome: 'Pavia...il Ticino e i suoi ponti', file: 'Pavia...il Ticino e i suoi ponti.jpg' },

@@ -1,5 +1,9 @@
 [
   {
+    "nome": "Amicizia vera",
+    "file": "Amicizia vera.mp3"
+  },
+  {
     "nome": "Angeli",
     "file": "Angeli.mp3"
   },
@@ -8,7 +12,19 @@
     "file": "Bambini verso il futuro.mp3"
   },
   {
-    "nome": "Cosa c'è di là",
+    "nome": "Caro papà",
+    "file": "Caro papà.mp3"
+  },
+  {
+    "nome": "Ciao chi sei",
+    "file": "Ciao chi sei.mp3"
+  },
+  {
+    "nome": "Compagna di sempre",
+    "file": "Compagna di sempre.mp3"
+  },
+  {
+    "nome": "Cosa ce di la",
     "file": "Cosa ce di la.mp3"
   },
   {
@@ -16,8 +32,20 @@
     "file": "Fiore appassito rinasci con me.mp3"
   },
   {
+    "nome": "Fratelli nel tempo",
+    "file": "Fratelli nel tempo.mp3"
+  },
+  {
+    "nome": "Gabri",
+    "file": "Gabri.mp3"
+  },
+  {
     "nome": "Galeotto fu il giornale",
     "file": "Galeotto fu il giornale.mp3"
+  },
+  {
+    "nome": "Giocare a mamma e papà",
+    "file": "Giocare a mamma e papà.mp3"
   },
   {
     "nome": "Il cuoco",
@@ -32,12 +60,32 @@
     "file": "L'ingegnere.mp3"
   },
   {
+    "nome": "La bussola",
+    "file": "La bussola.mp3"
+  },
+  {
     "nome": "La cinghia della Giulietta",
     "file": "La cinghia della Giulietta.mp3"
   },
   {
+    "nome": "Luca e Marco",
+    "file": "Luca e Marco.mp3"
+  },
+  {
+    "nome": "Maledetto me",
+    "file": "Maledetto me.mp3"
+  },
+  {
+    "nome": "Nostro amico",
+    "file": "Nostro amico.mp3"
+  },
+  {
     "nome": "Partiti dalla stazione",
     "file": "Partiti dalla stazione.mp3"
+  },
+  {
+    "nome": "Per un vero amico",
+    "file": "Per un vero amico.mp3"
   },
   {
     "nome": "Perdono universale",
@@ -48,12 +96,24 @@
     "file": "Regina e re.mp3"
   },
   {
+    "nome": "Resurrezione",
+    "file": "Resurrezione.mp3"
+  },
+  {
     "nome": "Senza parlare",
     "file": "Senza parlare.mp3"
   },
   {
+    "nome": "Squilla il telefono",
+    "file": "Squilla il telefono.mp3"
+  },
+  {
     "nome": "Tre alberelli",
     "file": "Tre alberelli.mp3"
+  },
+  {
+    "nome": "Voi medici",
+    "file": "Voi medici.mp3"
   },
   {
     "nome": "Volare nella musica",
