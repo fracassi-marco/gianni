@@ -3,9 +3,9 @@
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import canzoniData from './canzoni-data.json'
+import canzoniData from './brani-luciano-data.json'
 
-export default function Canzoni() {
+export default function BraniLuciano() {
   // Rimuovi duplicati (mantieni solo la versione con il nome più corto/pulito)
   const canzoniUniche = canzoniData.filter((canzone, index, self) => {
     const nomeNormalizzato = canzone.nome.toLowerCase().replace(/[^a-z0-9]/g, '')
@@ -20,7 +20,7 @@ export default function Canzoni() {
       <main>
         <section className="hero">
           <div className="container">
-            <h2>Brani Gianni</h2>
+            <h2>Brani Luciano</h2>
             <p className="subtitle">Brani musicati con SUNO</p>
           </div>
         </section>
@@ -49,7 +49,7 @@ export default function Canzoni() {
             <div className="info-box">
               <p>
                 Le canzoni sono state musicate con l&apos;aiuto dell&apos;intelligenza artificiale SUNO, 
-                su ispirazione dei testi lasciati in eredità da Gabriela.
+                su ispirazione dei testi di Luciano.
               </p>
             </div>
           </div>

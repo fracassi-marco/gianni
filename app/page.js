@@ -57,7 +57,7 @@ export default function Home() {
                 </p>
                 
                 <p>
-                  L&apos;amica Simona mi ha infine suggerito di scrivere la favola della mia vita con Gabriela: ci sto provando.
+                  L&apos;amica Simona mi ha infine suggerito di scrivere la favola della mia vita con Gabriela: ci ho provato.
                 </p>
                 
                 <p>

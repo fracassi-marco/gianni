@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const testiDir = path.join(__dirname, '../testi');
-const files = fs.readdirSync(testiDir).filter(f => f.endsWith('.doc'));
+const files = fs.readdirSync(testiDir).filter(f => f.endsWith('.doc') || f.endsWith('.rtf'));
 
 const results = [];
 

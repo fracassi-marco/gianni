@@ -41,7 +41,13 @@ export default function Header() {
               <Link href="/testi" onClick={closeMenu}>Testi</Link>
             </li>
             <li>
-              <Link href="/canzoni" onClick={closeMenu}>Canzoni</Link>
+              <Link href="/canzoni" onClick={closeMenu}>Brani Gianni</Link>
+            </li>
+            <li>
+              <Link href="/brani-luciano" onClick={closeMenu}>Brani Luciano</Link>
+            </li>
+            <li>
+              <Link href="/fiabe" onClick={closeMenu}>Fiabe</Link>
             </li>
             <li>
               <Link href="/contatti" onClick={closeMenu}>Contatti</Link>

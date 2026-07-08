@@ -60,10 +60,6 @@
     "file": "L'ingegnere.mp3"
   },
   {
-    "nome": "La bussola",
-    "file": "La bussola.mp3"
-  },
-  {
     "nome": "La cinghia della Giulietta",
     "file": "La cinghia della Giulietta.mp3"
   },
@@ -78,10 +74,6 @@
   {
     "nome": "Nostro amico",
     "file": "Nostro amico.mp3"
-  },
-  {
-    "nome": "Partiti dalla stazione",
-    "file": "Partiti dalla stazione.mp3"
   },
   {
     "nome": "Per un vero amico",
@@ -108,15 +100,95 @@
     "file": "Squilla il telefono.mp3"
   },
   {
-    "nome": "Tre alberelli",
-    "file": "Tre alberelli.mp3"
-  },
-  {
     "nome": "Voi medici",
     "file": "Voi medici.mp3"
   },
   {
     "nome": "Volare nella musica",
     "file": "Volare nella musica.mp3"
+  },
+  {
+    "nome": "Auto e batteria",
+    "file": "Auto e batteria.mp3"
+  },
+  {
+    "nome": "Ballata del grande amore",
+    "file": "Ballata del grande amore.mp3"
+  },
+  {
+    "nome": "Cara amica",
+    "file": "Cara amica.mp3"
+  },
+  {
+    "nome": "Chi sei Tu",
+    "file": "Chi sei Tu.mp3"
+  },
+  {
+    "nome": "Di passaggio",
+    "file": "Di passaggio.mp3"
+  },
+  {
+    "nome": "Duetto del labirinto",
+    "file": "Duetto del labirinto.mp3"
+  },
+  {
+    "nome": "Emozione amica",
+    "file": "Emozione amica.mp3"
+  },
+  {
+    "nome": "Ferragosto in città",
+    "file": "Ferragosto in città.mp3"
+  },
+  {
+    "nome": "Il dentista",
+    "file": "Il dentista.mp3"
+  },
+  {
+    "nome": "Intelligenza artificiale",
+    "file": "Intelligenza artificiale.mp3"
+  },
+  {
+    "nome": "La nostra vita",
+    "file": "La nostra vita.mp3"
+  },
+  {
+    "nome": "Lettera a Gabriela",
+    "file": "Lettera a Gabriela.mp3"
+  },
+  {
+    "nome": "Lettera a Gianni",
+    "file": "Lettera a Gianni.mp3"
+  },
+  {
+    "nome": "Me ne andrò",
+    "file": "Me ne andrò.mp3"
+  },
+  {
+    "nome": "Messaggio dal cielo",
+    "file": "Messaggio dal cielo.mp3"
+  },
+  {
+    "nome": "Miracolo della croce",
+    "file": "Miracolo della croce.mp3"
+  },
+  {
+    "nome": "Perchè proprio me",
+    "file": "Perchè proprio me.mp3"
+  },
+  {
+    "nome": "Pranzo di Natale",
+    "file": "Pranzo di Natale.mp3"
+  },
+  {
+    "nome": "Viaggio nell'infinito",
+    "file": "Viaggio nell'infinito.mp3"
+  },
+  {
+    "nome": "Volto dei miracoli",
+    "file": "Volto dei miracoli.mp3"
+  },
+  {
+    "nome": "Stretta di mano",
+    "file": "Stretta di mano.mp3"
   }
 ]
