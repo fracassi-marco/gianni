@@ -7,12 +7,14 @@ import canzoniData from './brani-luciano-data.json'
 
 export default function BraniLuciano() {
   // Rimuovi duplicati (mantieni solo la versione con il nome più corto/pulito)
-  const canzoniUniche = canzoniData.filter((canzone, index, self) => {
-    const nomeNormalizzato = canzone.nome.toLowerCase().replace(/[^a-z0-9]/g, '')
-    return index === self.findIndex(c => 
-      c.nome.toLowerCase().replace(/[^a-z0-9]/g, '') === nomeNormalizzato
-    )
-  })
+  const canzoniUniche = canzoniData
+    .filter((canzone, index, self) => {
+      const nomeNormalizzato = canzone.nome.toLowerCase().replace(/[^a-z0-9]/g, '')
+      return index === self.findIndex(c => 
+        c.nome.toLowerCase().replace(/[^a-z0-9]/g, '') === nomeNormalizzato
+      )
+    })
+    .sort((a, b) => a.nome.localeCompare(b.nome, 'it', { sensitivity: 'base' }))
 
   return (
     <>

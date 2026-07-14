@@ -8,6 +8,10 @@ import testiData from './testi-data.json'
 export default function Testi() {
   const [openAccordions, setOpenAccordions] = useState({})
 
+  const testiOrdinati = [...testiData].sort((a, b) =>
+    a.title.localeCompare(b.title, 'it', { sensitivity: 'base' })
+  )
+
   const toggleAccordion = (index) => {
     setOpenAccordions(prev => ({
       ...prev,
@@ -29,7 +33,7 @@ export default function Testi() {
         <section className="content">
           <div className="container">
             <div className="lyrics-list">
-              {testiData.map((testo, index) => {
+              {testiOrdinati.map((testo, index) => {
                 const needsAccordion = testo.lineCount > 8
                 const previewLines = needsAccordion ? testo.lines.slice(0, 8) : testo.lines
                 const remainingLines = needsAccordion ? testo.lines.slice(8) : []

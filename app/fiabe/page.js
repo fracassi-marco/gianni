@@ -28,8 +28,8 @@ export default function Fiabe() {
                 </p>
 
                 <p>
-                  &laquo;Potrei leggere il suo giornale?&raquo; chiese lui, con il coraggio improvviso di chi
-                  sente che non deve lasciarsi sfuggire quell&apos;attimo. &laquo;Certo&raquo; rispose lei
+                  &laquo;Potrei leggere il suo giornale?&raquo; chiese lei, con il coraggio improvviso di chi
+                  sente che non deve lasciarsi sfuggire quell&apos;attimo. &laquo;Certo&raquo; rispose lui
                   sorridendo &laquo;ma possiamo anche vederci qualche sera&raquo;. Fu così, tra un binario e
                   l&apos;altro, che ebbe inizio la favola più bella.
                 </p>
